@@ -8,5 +8,5 @@ meteor-platform
 autopublish
 insecure
 xolvio:sharejs-ace
-twbs:bootstrap
-jaredmartin:flatui
+semantic:ui
+flemay:less-autoprefixer
