@@ -1,0 +1,160 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="3039" measuredH="1666" mockupW="3003" mockupH="1554">
+  <controls>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="449" y="166" w="810" h="660" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>editView%0Amarkdownerds.com/docs/sjfklsdf</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Button" x="853" y="263" w="-1" h="-1" measuredW="73" measuredH="27" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Settings</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Button" x="1080" y="263" w="-1" h="-1" measuredW="61" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Export</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Button" x="934" y="263" w="-1" h="-1" measuredW="138" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Invite%20to%20collaborate</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::TextArea" x="859" y="304" w="400" h="494" measuredW="200" measuredH="140" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>preview</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::TextArea" x="453" y="304" w="406" h="494" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%23Markdownerds%0AYou%20can%20edit%20your%20markdown%20here%20and%20preview%20the%20changes%20immediately%20on%20the%20right-hand%20panel.</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="1329" y="1006" w="810" h="660" measuredW="450" measuredH="400" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>workspaceView%0Amarkdownerds.com/workspace</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::TextArea" x="1399" y="1237" w="-1" h="-1" measuredW="200" measuredH="140" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>MarkdownNerds.md</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::FieldSet" x="1344" y="1144" w="789" h="494" measuredW="200" measuredH="170" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>my%20workspace</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::TextArea" x="1856" y="1237" w="-1" h="-1" measuredW="200" measuredH="140" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::TextArea" x="1399" y="1417" w="-1" h="-1" measuredW="200" measuredH="140" zOrder="10" locked="false" isInGroup="-1"/>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::TextArea" x="1625" y="1239" w="-1" h="-1" measuredW="200" measuredH="140" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>you%20can%20also%20save%20markdown%20snippets%20or%20templates%20here%20%28copyable%3F%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::Icon" x="1481" y="1463" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>SquaredPlusIcon%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::TextInput" x="1169" y="263" w="-1" h="-1" measuredW="54" measuredH="27" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>sign%20in</text>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="449" y="1006" w="810" h="660" measuredW="450" measuredH="400" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>editView%0Amarkdownerds.com/docs/sjfklsdf</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Button" x="853" y="1103" w="-1" h="-1" measuredW="73" measuredH="27" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Settings</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Button" x="1080" y="1103" w="-1" h="-1" measuredW="61" measuredH="27" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Export</text>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Button" x="934" y="1103" w="-1" h="-1" measuredW="138" measuredH="27" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Invite%20to%20collaborate</text>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::TextArea" x="859" y="1144" w="400" h="494" measuredW="200" measuredH="140" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>preview</text>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::TextArea" x="453" y="1144" w="406" h="494" measuredW="200" measuredH="140" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%23Markdownerds%0AYou%20can%20edit%20your%20markdown%20here%20and%20preview%20the%20changes%20immediately%20on%20the%20right-hand%20panel.</text>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::TextInput" x="1169" y="1103" w="-1" h="-1" measuredW="62" measuredH="27" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>sign%20out</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Title" x="449" y="112" w="-1" h="-1" measuredW="157" measuredH="43" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>EditView</text>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Title" x="449" y="932" w="-1" h="-1" measuredW="157" measuredH="43" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>EditView</text>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Title" x="1329" y="939" w="-1" h="-1" measuredW="291" measuredH="43" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>WorkspaceView</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Title" x="36" y="408" w="-1" h="-1" measuredW="350" measuredH="43" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Default%20Anonymous</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Title" x="51" y="1262" w="-1" h="-1" measuredW="174" measuredH="43" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Signed-in</text>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="2229" y="1006" w="810" h="660" measuredW="450" measuredH="400" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>workspaceView%0Amarkdownerds.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::FieldSet" x="2444" y="1130" w="383" h="494" measuredW="200" measuredH="170" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Sign%20up</text>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::Title" x="2229" y="939" w="-1" h="-1" measuredW="302" measuredH="43" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Signup%20%28%26%20Login%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::TextInput" x="2571" y="1314" w="124" h="-1" measuredW="46" measuredH="27" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Email</text>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::TextInput" x="2571" y="1354" w="124" h="-1" measuredW="70" measuredH="27" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Password</text>
+      </controlProperties>
+    </control>
+    <control controlID="52" controlTypeID="com.balsamiq.mockups::TextInput" x="2571" y="1394" w="124" h="-1" measuredW="120" measuredH="27" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Password%20Confirm</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
