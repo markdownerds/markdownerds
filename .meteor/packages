@@ -10,3 +10,5 @@ insecure
 xolvio:sharejs-ace
 semantic:ui
 flemay:less-autoprefixer
+markdown
+reactive-var
