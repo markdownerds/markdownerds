@@ -1,7 +1,7 @@
 Template.workpane.helpers({
   initEditor: function() {
 
-    Template.instance().markdownCode = new ReactiveVar(false);
+    Template.instance().markdownCode = new ReactiveVar("");
     var markdownCode = Template.instance().markdownCode;
 
     return function(editor) {
