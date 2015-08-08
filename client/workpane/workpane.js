@@ -11,8 +11,9 @@ Template.workpane.helpers({
       });
       editor.insert("#Markdownerds!");
       editor.setTheme('ace/theme/monokai');
+      editor.setShowPrintMargin(false);
       editor.getSession().setMode('ace/mode/markdown');
-    }
+    };
   },
 
   markdownCode: function() {
