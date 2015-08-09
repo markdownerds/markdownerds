@@ -1,3 +1,4 @@
+
 Template.workpane.helpers({
   initialize: function() {
     console.log('workpane initialized');
@@ -23,10 +24,16 @@ Template.workpane.helpers({
 });
 
 Template.workpane.events({
-  'submit .change-title': function(e) {
+  'change .change-title': function(e) {
     e.preventDefault();
+    var newTitle = e.target.value;
+    console.log('new title added!?', e.target.value);
+    if (!newTitle) {
+      e.target.title.value = Documents.find({_id: this._id}).title;
+      return;
+    }
     Documents.update(this._id, {
-      $set: {title: e.target.title.value}
+      $set: {title: newTitle}
     });
   }
 });
