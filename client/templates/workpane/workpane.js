@@ -26,5 +26,12 @@ Template.workpane.events({
   'click .setting-more': function(e) {
     e.preventDefault();
     $('.ui.sidebar').sidebar('toggle');
+  },
+
+  'submit .change-title': function(e) {
+    e.preventDefault();
+    Documents.update(this._id, {
+      $set: {title: e.target.title.value}
+    });
   }
 });
