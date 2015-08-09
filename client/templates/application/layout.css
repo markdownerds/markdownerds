@@ -1,0 +1,10 @@
+.main.menu {
+  box-shadow: none;
+}
+
+.sidebar-more:hover {
+  background: none !important;
+}
+.sidebar-more:hover i {
+  color: rgba(0,0,0, 0.80) !important;
+}
