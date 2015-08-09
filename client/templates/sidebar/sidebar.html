@@ -1,7 +1,13 @@
 <template name='sidebar'>
   <div class="ui sidebar right inverted vertical menu">
-    <!-- todo: user status here if{user} -->
-    <a class="item">Anonymous</a>
+    <!-- todo: make currentUser immutable by the client -->
+    <a class="item sidebar-profile">
+      {{#if currentUser}}
+        {{> logout}}
+      {{else}}
+      <a href='/signup' class='item no-deco-link'>Want to save this document?</a>
+      {{/if}}
+    </a>
     <a class="item">Your documents</a>
     <a class="item">Export to pdf</a>
     <a class="item">Markdown cheatsheet</a>
