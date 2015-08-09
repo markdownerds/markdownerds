@@ -1,5 +1,5 @@
 #editor {
-    height: 700px;
+    height: 650px;
     width: 100%;
 }
 
@@ -11,9 +11,19 @@
     height: 700px;
     overflow: auto;
     width: 100%;
+    z-index: 1;
 }
 
 
 .workpane.ui.stackable {
-    padding: 3em;
+    padding-left: 1em;
+}
+
+.bottom-fade {
+    width: 100%;
+    height: 130px;
+    z-index: 99;
+    position: fixed;
+    bottom: 0px;
+    background: url("/img/bottom-fade.png") bottom center;
 }
