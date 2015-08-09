@@ -6,22 +6,29 @@
       <input type="email" name="email" placeholder="email@markdownerds.com">
     </div>
     <button class="ui button inverted tiny" type="submit">invite</button>
+    {{#if afterInvite}}
+    <div class="invite-success inverted">
+      <p>Thanks. Your friend now can collaborate with you.</p>
+    </div>
+    {{/if}}
   </form>
-  {{#if afterInvite}}
-  <div class="invite-success">
-    <p>Thanks. Your friend now can collaborate with you.</p>
+  {{/if}}
+  <div class="item">
+    <div class="ui relaxed inverted divided list">
+      <h5 class="ui header inverted">Collaborators:</h5> {{#if isOwner}} {{#each collaborators}}
+      <div class="item">
+        <div class="content">
+          <div class="header">{{userEmailById this}}&nbsp;<a class="deleteCollab" href="#"><i class="icon remove user inverted"></i></a>
+          </div>
+        </div>
+      </div>
+      {{/each}} {{else}} {{#each collaborators}}
+      <div class="item">
+        <div class="content">
+          <div class="header">{{userEmailById this}}</div>
+        </div>
+      </div>
+      {{/each}} {{/if}}
+    </div>
   </div>
-  {{/if}}
-  {{/if}}
-  <!-- <h5>Collaborators:</h5>
-  <ul>
-    <li>
-      {{userEmailById owner}} [owner]
-    </li>
-    {{#if isOwner}} {{#each collaborators}}
-    <li>{{userEmailById this}} <a class="deleteCollab" href="#">X</a></li>
-    {{/each}} {{else}} {{#each collaborators}}
-    <li>{{userEmailById this}}</li>
-    {{/each}} {{/if}}
-  </ul> -->
 </template>
