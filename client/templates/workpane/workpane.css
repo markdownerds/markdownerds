@@ -30,3 +30,7 @@
     color: lightgrey !important;
     border: none !important;
 }
+#style-force input:hover, #style-force input:focus {
+    border: 1px solid #3ac0ff !important;
+    color: grey !important;
+}
