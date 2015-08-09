@@ -3,10 +3,6 @@
     width: 100%;
 }
 
-.editor-container {
-    background-color: black;
-}
-
 #preview {
     height: 700px;
     overflow: auto;
@@ -25,5 +21,5 @@
     z-index: 99;
     position: fixed;
     bottom: 0px;
-    background: url("/img/bottom-fade.png") bottom center;
+    background: url("/img/bottom_fade.png") bottom center;
 }
