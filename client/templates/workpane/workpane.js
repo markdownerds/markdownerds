@@ -1,3 +1,4 @@
+
 Template.workpane.helpers({
   initialize: function() {
     console.log('workpane initialized');

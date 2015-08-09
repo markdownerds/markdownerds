@@ -1,24 +1,27 @@
 <template name="collaborators">
   {{#if isOwner}}
-    <form class="add-collaborator">
+  <form class="ui form inverted add-collaborator item">
+    <div class="field">
+      <label for="email">share this doc to</label>
       <input type="email" name="email" placeholder="email@markdownerds.com">
-    </form>
+    </div>
+    <button class="ui button inverted tiny" type="submit">invite</button>
+  </form>
+  {{#if afterInvite}}
+  <div class="invite-success">
+    <p>Thanks. Your friend now can collaborate with you.</p>
+  </div>
   {{/if}}
-  <h5>Collaborators:</h5>
+  {{/if}}
+  <!-- <h5>Collaborators:</h5>
   <ul>
-  <li>
-    {{userEmailById owner}} [owner]
-  </li>
-  
-  {{#if isOwner}}
-    {{#each collaborators}}
-      <li>{{userEmailById this}} <a class="deleteCollab" href="#">X</a></li>
-    {{/each}}
-  {{else}}
-    {{#each collaborators}}
-      <li>{{userEmailById this}}</li>
-    {{/each}}
-  {{/if}}
-
-  </ul>
+    <li>
+      {{userEmailById owner}} [owner]
+    </li>
+    {{#if isOwner}} {{#each collaborators}}
+    <li>{{userEmailById this}} <a class="deleteCollab" href="#">X</a></li>
+    {{/each}} {{else}} {{#each collaborators}}
+    <li>{{userEmailById this}}</li>
+    {{/each}} {{/if}}
+  </ul> -->
 </template>
