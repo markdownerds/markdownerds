@@ -1,10 +1,6 @@
 <template name="docsList">
-  <div>
+  <div class="ui container link four cards">
     {{> createDoc}}
-  </div>
-  <div>
-    {{#each documents}}
-      {{> docItem}}
-    {{/each}}
+    {{#each documents}} {{> docItem}} {{/each}}
   </div>
 </template>
