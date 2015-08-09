@@ -1,10 +1,13 @@
 <template name="workpane">
-  <form class="change-title">
-    <input type="text" name="title" value="{{title}}">
-  </form>
-  {{> collaborators this}}
   <div class="workpane ui stackable two column grid">
     <div class="column">
+      <form class="ui form change-title">
+        <div class="inline fields">
+          <div class="field" id="style-force">
+            <input type="text" name="title" value="{{title}}">
+          </div>
+        </div>
+      </form>
       {{> sharejsAce docid=this._id id="editor" onRender=initialize}}
     </div>
     <div class="column">
