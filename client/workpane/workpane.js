@@ -5,6 +5,11 @@ Template.workpane.helpers({
 
     Template.instance().markdownCode = new ReactiveVar("");
     var markdownCode = Template.instance().markdownCode;
+    // markdownCode.setOptions({
+    //     highlight: function(code) {
+    //         return require('highlight.js').highlightAuto(code).value;
+    //     }
+    // });
 
     return function(editor) {
       editor.$blockScrolling = Infinity;
