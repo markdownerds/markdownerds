@@ -1,13 +1,7 @@
 Template.workpane.helpers({
-  initEditor: function() {
-
+  initialize: function() {
     Template.instance().markdownCode = new ReactiveVar("");
     var markdownCode = Template.instance().markdownCode;
-    // markdownCode.setOptions({
-    //     highlight: function(code) {
-    //         return require('highlight.js').highlightAuto(code).value;
-    //     }
-    // });
 
     return function(editor) {
       editor.$blockScrolling = Infinity;
@@ -25,6 +19,14 @@ Template.workpane.helpers({
 
   markdownCode: function() {
     return "\n" + Template.instance().markdownCode.get();
-  },
+  }
 
+
+});
+
+Template.workpane.events({
+  'click .setting-more': function(e) {
+    e.preventDefault();
+    $('.ui.sidebar').sidebar('toggle');
+  }
 });

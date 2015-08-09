@@ -1,0 +1,8 @@
+.ui.container.header {
+    width: 95%;
+    border-style:none;
+}
+
+.ui.menu .item > img:not(.ui) {
+    width: 5em;
+}
