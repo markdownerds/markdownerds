@@ -1,3 +1,10 @@
 Meteor.publish('documents', function() {
-  return Documents.find();
+  var uid = this.userId;
+  return Documents.find({
+    $or: [
+      { owner: null },
+      { owner: this.userId },
+      { collaborators: {$in: [this.userId]} }
+    ]
+  });
 });
