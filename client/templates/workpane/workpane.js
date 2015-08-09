@@ -1,5 +1,3 @@
-Session.set("document", Documents.findOne());
-
 Template.workpane.helpers({
   initEditor: function() {
 
@@ -28,7 +26,4 @@ Template.workpane.helpers({
     return "\n" + Template.instance().markdownCode.get();
   },
 
-  document: function() {
-    return Documents.findOne();
-  }
 });

@@ -1,7 +1,8 @@
 <template name="workpane">
+    {{> sidebar}}
     <div class="workpane ui stackable two column grid">
         <div class="column seven wide">
-            {{> sharejsAce docid="{{document.id}}" id="editor" onRender=initEditor}}
+            {{> sharejsAce docid=this._id id="editor" onRender=initEditor}}
         </div>
         <div class="column seven wide">
         {{#markdown}} {{markdownCode id="preview"}} {{/markdown}}
