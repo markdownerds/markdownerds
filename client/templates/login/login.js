@@ -9,8 +9,13 @@ Accounts.onLogin(function() {
         $set: {
           owner: Meteor.userId()
         }
+      }, function() {
+        Router.go('workpane', {_id: doc._id});
       });
     }
+    
   }
-  
+
+  Router.go('/');
+
 });
