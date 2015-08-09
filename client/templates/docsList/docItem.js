@@ -5,6 +5,9 @@
   Template.docItem.helpers({
     getColor: function() {
       return colors[(previousColorIndex++) % colors.length];
+    },
+    isOwner: function() {
+      return this.owner == Meteor.userId();
     }
   });
 
