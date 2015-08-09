@@ -4,12 +4,17 @@
       <div class="header"><a href="{{pathFor 'workpane'}}">{{title}}</a>
       </div>
       <div class="meta">
+        {{#unless isOwner}}
+          <strong>Collaborator</strong>
+        {{/unless}}
         <a>2001.01.01</a>
       </div>
     </div>
     <div class="extra content">
       <i class="icon share"></i>
-      <i class="icon trash outline delete"></i>
+      {{#if isOwner}}
+        <i class="icon trash outline delete"></i>
+      {{/if}}
     </div>
   </div>
 </template>
