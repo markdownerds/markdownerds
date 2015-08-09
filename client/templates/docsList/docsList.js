@@ -1,5 +1,5 @@
 Template.docsList.helpers({
   documents: function() {
-    return Documents.find();
+    return Documents.find({owner: {$ne: null}});
   }
 });

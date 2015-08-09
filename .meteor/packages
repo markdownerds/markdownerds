@@ -15,3 +15,5 @@ iron:router
 sacha:spin
 jquery
 mizzao:jquery-ui
+accounts-ui
+accounts-password
