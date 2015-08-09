@@ -21,10 +21,3 @@ Template.workpane.helpers({
   },
 
 });
-
-Template.workpane.events({
-  'click .setting-more': function(e) {
-    e.preventDefault();
-    $('.ui.sidebar').sidebar('toggle');
-  }
-});
