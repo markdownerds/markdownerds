@@ -1,6 +1,7 @@
 <template name="docsList">
-  <div>
+  <div class="ui container link four cards">
     {{> createDoc}}
+    {{#each documents}} {{> docItem}} {{/each}}
   </div>
   <div>
     {{> logout}}
