@@ -1,6 +1,17 @@
-.preview {
-    height: 100%;
+#editor {
+    min-height: 700px;
+    width: 100%;
 }
+
+.editor-container {
+    background-color: black;
+}
+
+#preview {
+    height: 100%;
+    width: 100%;
+}
+
 
 .workpane.ui.stackable {
     padding: 3em;

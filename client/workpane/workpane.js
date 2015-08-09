@@ -12,8 +12,9 @@ Template.workpane.helpers({
         markdownCode.set(editor.getValue());
       });
       editor.insert("#Markdownerds!");
-      editor.setTheme('ace/theme/monokai');
+      editor.setTheme('ace/theme/dawn');
       editor.setShowPrintMargin(false);
+      editor.renderer.setShowGutter(false);
       editor.getSession().setMode('ace/mode/markdown');
     };
   },
