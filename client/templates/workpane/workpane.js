@@ -18,8 +18,7 @@ Template.workpane.helpers({
 
   markdownCode: function() {
     return "\n" + Template.instance().markdownCode.get();
-  }
-
+  },
 
 });
 

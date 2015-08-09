@@ -8,3 +8,7 @@ Meteor.publish('documents', function() {
     ]
   });
 });
+
+Meteor.publish('allUsers', function() {
+  return Meteor.users.find({}, {fields: {emails: 1}});
+})
