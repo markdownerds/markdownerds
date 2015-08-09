@@ -1,9 +1,18 @@
 <template name="workpane">
-  {{> sharejsAce docid="{{document.id}}" id="editor" onRender=initEditor}}
+  <div class="ui borderless main menu">
+      <div class="ui container">
+        <div href="/" class="header item">
+          <img class="logo" src="img/mdnerds_logo_0.5x.png">
+        </div>
+        <a href="#" class="item">Export</a>
+        <a href="#" class="item">Setting</a>
+        <a href="#" class="item">Sign in</a>
+      </div>
+  </div>
+  {{> sharejsAce docid=this._id id="editor" onRender=initEditor}}
   <div id="preview">
     {{#markdown}}
       {{markdownCode}}
     {{/markdown}}
   </div>
-  {{document._id}}
 </template>

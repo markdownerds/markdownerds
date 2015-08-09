@@ -19,7 +19,4 @@ Template.workpane.helpers({
     return "\n" + Template.instance().markdownCode.get();
   },
 
-  document: function() {
-    return Documents.findOne();
-  }
 });
