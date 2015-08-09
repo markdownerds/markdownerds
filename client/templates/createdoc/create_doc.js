@@ -5,7 +5,10 @@ Template.createDoc.events({
     event.preventDefault();
     var title = event.target.title.value;
     Documents.insert({
-      title: title
+      title: title,
+      createdAt: new Date(),
+      owner: Meteor.userId(),
+      collaborators: []
     }, function(err, _id) {
       Router.go('workpane', {_id: _id})
     });
