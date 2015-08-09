@@ -15,14 +15,18 @@
   {{/if}}
   <div class="item">
     <div class="ui relaxed inverted divided list">
-      <h5 class="ui header inverted">Collaborators:</h5> {{#if isOwner}} {{#each collaborators}}
+      {{#if isOwner}}
+      <h5 class="ui header inverted">Collaborators:</h5>
+      {{#each collaborators}}
       <div class="item">
         <div class="content">
           <div class="header">{{userEmailById this}}&nbsp;<a class="deleteCollab" href="#"><i class="icon remove user inverted"></i></a>
           </div>
         </div>
       </div>
-      {{/each}} {{else}} {{#each collaborators}}
+      {{/each}} {{else}}
+      <h5 class="ui header inverted">Collaborators:</h5>
+      {{#each collaborators}}
       <div class="item">
         <div class="content">
           <div class="header">{{userEmailById this}}</div>

@@ -1,15 +1,13 @@
 <template name='sidebar'>
   <div class="ui sidebar right inverted vertical menu">
     <!-- todo: make currentUser immutable by the client -->
-    <a class="item sidebar-profile">
+    <div class="item sidebar-profile">
       {{#if currentUser}}
         {{> logout}}
       {{else}}
-      <a href='/signup' class='item no-deco-link'>Want to save this document?</a>
+      <a href='/signup' class='sidebar-signup no-deco-link'><button class="ui button blue inverted">Want to save this document?</button></a>
       {{/if}}
-    </a>
-    <a class="item" href='/'>Your documents</a>
-    <a class="item">Markdown cheatsheet</a>
-      {{> collaborators this}}
+    </div>
+    <a class="item" href='/'>Your documents</a> {{> collaborators this}}
   </div>
 </template>

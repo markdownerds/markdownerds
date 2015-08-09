@@ -6,36 +6,10 @@
     // TODO: do some form validation
   };
 
-  // Template.signup.onRendered = function() {
-  //   TODO: we debug this later
-  //   console.log('signupe rendedred!');
-  //   $('.ui.form')
-  //     .form({
-  //       fields: {
-  //         email: {
-  //           identifier: 'email',
-  //           rules: [{
-  //             type: 'empty',
-  //             prompt: 'Please enter your e-mail'
-  //           }, {
-  //             type: 'email',
-  //             prompt: 'Please enter a valid e-mail'
-  //           }]
-  //         },
-  //         password: {
-  //           identifier: 'password',
-  //           rules: [{
-  //             type: 'empty',
-  //             prompt: 'Please enter your password'
-  //           }, {
-  //             type: 'length[6]',
-  //             prompt: 'Your password must be at least 6 characters'
-  //           }]
-  //         }
-  //       }
-  //     });
-
-  // };
+  Template.signup.onRendered = function() {
+    console.log('signup rendered');
+    $('.ui.sidebar').removeClass('visible');
+  };
 
   Template.signup.events({
     'submit #signup-form': function(e, t) {
