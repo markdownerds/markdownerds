@@ -1,4 +1,4 @@
-Session.set("document", Documents.findOne())
+Session.set("document", Documents.findOne());
 
 Template.workpane.helpers({
   initEditor: function() {

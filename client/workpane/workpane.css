@@ -1,4 +1,7 @@
-#preview {
-  height: 300px;
-  width: 100%;
+.preview {
+    height: 100%;
+}
+
+.workpane.ui.stackable {
+    padding: 3em;
 }
