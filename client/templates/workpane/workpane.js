@@ -12,9 +12,10 @@ Template.workpane.helpers({
     return function(editor) {
       editor.$blockScrolling = Infinity;
       editor.on('change', function() {
+        console.log(editor.getValue());
         markdownCode.set(editor.getValue());
       });
-      editor.insert("#Markdownerds!");
+      console.log(editor.getValue());
       editor.setTheme('ace/theme/dawn');
       editor.setShowPrintMargin(false);
       editor.renderer.setShowGutter(false);
