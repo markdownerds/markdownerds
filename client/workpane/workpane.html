@@ -1,8 +1,9 @@
 <template name="workpane">
-  {{> sharejsAce docid=docid id="editor" onRender=initEditor}}
+  {{> sharejsAce docid="{{document.id}}" id="editor" onRender=initEditor}}
   <div id="preview">
     {{#markdown}}
       {{markdownCode}}
     {{/markdown}}
   </div>
+  {{document._id}}
 </template>
