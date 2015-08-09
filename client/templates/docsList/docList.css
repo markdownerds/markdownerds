@@ -4,3 +4,7 @@
 .ui.four.cards > .card {
     min-height: 150px;
 }
+
+.meta strong {
+  display: block;
+}
