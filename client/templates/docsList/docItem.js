@@ -8,6 +8,9 @@
     },
     isOwner: function() {
       return this.owner == Meteor.userId();
+    },
+    createdAtFormatted: function () {
+      return moment(this.createdAt).format('MM/DD/YYYY, HH:MM');
     }
   });
 
