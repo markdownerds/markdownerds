@@ -1,11 +1,32 @@
-<template name="login">
-  <form id="login-form" action="action">
-    <div>
-      <input type="email" id="login-email" />
-      <input type="password" id="login-password" />
-      <input type="submit" id="login-button" value="Sign in" />
+<template name='login'>
+    <!-- TODO: cut down unnecessary css classes -->
+  <div class="ui middle aligned center aligned grid">
+    <div class="signup-container column four wide">
+      <h2 class="ui teal image header">
+      <img src="/img/mdnerds_logo_2x.png" class="image">
+    </h2>
+      <form id="login-form" class="ui large form">
+        <div class="ui stacked segment">
+          <div class="field">
+            <div class="ui left icon input">
+              <i class="user icon"></i>
+              <input type="email" id="login-email" placeholder='Email' />
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui left icon input">
+              <i class="lock icon"></i>
+              <input type="password" id="login-password" placeholder='Password' />
+            </div>
+          </div>
+          <input type="submit" value="Log in" class="ui fluid large teal submit button" id="login-button" />
+        </div>
+        <div class="ui error message"></div>
+      </form>
+      <div class="ui message">
+        New to MarkdownNerds?&nbsp;&nbsp;<a href="/signup">Sign up</a>
+      </div>
     </div>
-  </form>
+  </div>
 </template>
-
 
