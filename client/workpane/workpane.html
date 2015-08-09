@@ -1,9 +1,12 @@
 <template name="workpane">
-  {{> sharejsAce docid="{{document.id}}" id="editor" onRender=initEditor}}
-  <div id="preview">
-    {{#markdown}}
-      {{markdownCode}}
-    {{/markdown}}
-  </div>
-  {{document._id}}
+    <div class="ui stackable two column grid">
+        <div class="column">
+            <h2 class="ui header">Edit</h2>
+            {{> sharejsAce docid="{{document.id}}" id="editor" onRender=initEditor}}
+        </div>
+        <div class="column">
+            <h2 class="ui header">Preview</h2>
+        {{#markdown}} {{markdownCode}} {{/markdown}}
+        </div>
+    </div>
 </template>
