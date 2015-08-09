@@ -1,0 +1,10 @@
+<template name="docsList">
+  <div>
+    {{> createDoc}}
+  </div>
+  <div>
+    {{#each documents}}
+      {{> docItem}}
+    {{/each}}
+  </div>
+</template>
