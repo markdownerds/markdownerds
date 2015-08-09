@@ -8,6 +8,10 @@
       <a href='/signup' class='sidebar-signup no-deco-link'><button class="ui button blue inverted">Want to save this document?</button></a>
       {{/if}}
     </div>
-    <a class="item" href='/'>Your documents</a> {{> collaborators this}}
+    {{#if currentUser}}
+      <a class="item" href='/'>Your documents</a> {{> collaborators this}}
+    {{else}}
+      <p style="color: #fff; margin: 5px;">You can share this url with anyone to collaborate. If you want to privately invite people, sign up!</p>
+    {{/if}}
   </div>
 </template>
