@@ -6,10 +6,10 @@
     // TODO: do some form validation
   };
 
-  Template.signup.onRendered = function() {
+  /*Template.signup.onCreated = function() {
     console.log('signup rendered');
     $('.ui.sidebar').removeClass('visible');
-  };
+  };*/
 
   Template.signup.events({
     'submit #signup-form': function(e, t) {
