@@ -1,6 +1,6 @@
 ;(function(Template) {
   var onSignupSuccess = function() {
-    Router.go('/');
+    loginHook();
   };
   var onSignupFail = function() {
     // TODO: do some form validation
