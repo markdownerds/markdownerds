@@ -5,7 +5,7 @@
 [Demo](http://mdnerds.meteord.com)
 
 ## Team
-- [Joost](https://twitter.com/joostouwerling)
+- [Joost](https://github.com/joostouwerling)
 - [DH](https://twitter.com/dhfromkorea)
 - [Dimitri](https://twitter.com/dimitriwalters)
 
