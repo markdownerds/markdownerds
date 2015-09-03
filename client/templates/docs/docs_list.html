@@ -1,0 +1,18 @@
+<template name="docsList">
+  {{#if currentUser}}
+    {{#if createError}}
+      <p class="error">
+        {{createError}}
+      </p>
+    {{/if}}
+    <form class="createDoc">
+      <input type="text" name="title" placeholder="Untitled Document">
+      <input type="submit" title="+ Create">
+    </form>
+  {{/if}}
+  <div class="docs">
+    {{#each docs}}
+      {{> docItem}}
+    {{/each}}
+  </div>
+</template>

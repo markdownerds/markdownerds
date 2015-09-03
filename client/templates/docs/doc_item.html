@@ -1,0 +1,12 @@
+<template name="docItem">
+  <div class="doc">
+    <div class="doc-content">
+      <h2>{{title}}</h2>
+      <span>{{createdAt}}</span>
+      <a href="{{pathFor 'docPage'}}">See DocPage</a>
+      {{#if isOwner}}
+        <a href="{{pathFor 'docEdit'}}">Edit</a>
+      {{/if}}
+    </div>
+  </div>
+</template>

@@ -1,0 +1,14 @@
+<template name="layout">
+  <header>
+    <h1>MDNerds rebuild</h1>
+    <div class="auth">
+      {{> loginButtons}}
+    </div>
+  </header>
+  <section class="body">
+    {{> yield}}
+  </section>
+  <footer>
+    &copy; mdnerds.com
+  </footer>
+</template>
